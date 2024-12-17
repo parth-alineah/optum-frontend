@@ -1,0 +1,20 @@
+/* .Toastify__toast-theme--colored.Toastify__toast--default {
+  background-color: #your_custom_default_color;
+  color: #your_custom_default_text_color;
+} */
+
+.Toastify__toast-theme--colored.Toastify__toast--info {
+  @apply bg-blue-main text-white-main font-sans font-bold text-lg;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  @apply bg-green-main text-white-main font-sans font-bold text-lg;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  @apply bg-yellow-main text-darkBlue-main font-sans font-bold text-lg;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--warning {
+  @apply bg-orange-main text-darkBlue-main font-sans font-bold text-lg;
+}
